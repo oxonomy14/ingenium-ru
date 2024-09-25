@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  background-color: #fff;
+  width: 770px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.wrapper-katalog-knig {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.katalog-knig-first-section {
+  padding-top: 0px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.katalog-knig-title {
+  
+  font-weight: 600;
+  font-size: 28px;
+
+  /* line-height: 72px; */
+  line-height: 150%;
+ 
+  margin: 10px 0;
+}
+
+.katalog-knig-first-section-description {
+    font-weight: 400;
+  font-size: 16px;
+text-indent: 25px;
+    line-height: 150%;
+    text-align: left;
+     margin-top: 32px;
+    margin-bottom: 72px;
+   
+}
+
+/* Картинки  */
+
+.katalog-knig-first-section-item {
+  width: calc((100% / 3) - (24px * 2) / 3);
+  
+}
+
+.katalog-knig-first-section-item-img {
+  margin-bottom: 8px;
+}
+
+.katalog-knig-first-section-item-title {
+   font-weight: 600;
+  font-size: 18px;
+
+  /* line-height: 24px; */
+  line-height: 100%;
+  text-align: center;
+  color: #1b1d1f;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.katalog-knig-first-section-item-description {
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center; 
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.katalog-knig-second-section {
+    padding-top: 0px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.katalog-knig {
+    margin-top: 72px;
+}
+
+.katalog-knig-third-section {
+    padding-top: 0px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.katalog-knig-third-section-item-description {
+   font-weight: 400;
+  font-size: 16px;
+text-indent: 25px;
+    line-height: 150%;
+    text-align: left;
+     margin-top: 24px;
+   
+}

@@ -1,0 +1,312 @@
+.triada-color-shem-ingenium {
+  background-color: #eaba1e;
+  background-color: #5b1f9e;
+  background-color: #1d5c98;
+  background-color: #98770a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/* ------------------ Секция №1 ------------------------------ */
+
+.ingenium-main-page-section-top {
+  background-image: url(/images/main_backround_3.jpg);
+  background-size: cover;
+  padding: 100px 0 60px;
+}
+
+.ingenium-main-page-section-top-container {
+  max-width: 1158px;
+  padding: 0 120px;
+  margin: 0 auto;
+  
+}
+
+.ingenium-main-page-section-top-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.ingenium-main-page-section-top-subtitle {
+  margin-bottom: 55px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.ingenium-main-page-section-top-button {
+  display: flex;
+  justify-content: center;
+ gap: 24px;
+  margin: 0 132px;
+    
+ 
+}
+
+.section-top-button {
+  background-color: #eaba1e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0 0;
+  padding: 0 15px;
+}
+
+.section-top-button:hover {
+  background-color: #98770a;
+}
+.section-top-button:focus {
+  background-color: #98770a;
+}
+
+/* ------------------------------ */
+
+/* ---------- Секция №2 ------------------- */
+
+.ingenium-main-page-section-proekt {
+  padding: 100px 0 0;
+}
+
+.ingenium-main-page-section-proekt-container {
+max-width: 1158px;
+  padding: 0 0;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.ingenium-main-page-section-proekt-title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 32px;
+}
+
+.ingenium-main-page-section-proekt-title::before {
+  position: absolute;
+  top: 56px;
+  width: 175px;
+  height: 2px;
+  content: "";
+  background-color: #eaba1e;
+  
+}
+
+.ingenium-main-page-section-proekt-subtitle {
+  margin-bottom:24px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.ingenium-main-page-section-proekt-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+ 
+  
+}
+
+
+
+
+/* ----------- Секция №3 ----------------------*/
+
+.ingenium-main-page-section-choose {
+  padding: 75px 0 0;
+  
+}
+
+.ingenium-main-page-section-choose-container {
+max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.ingenium-main-page-section-choose-title {
+  
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 64px;
+}
+
+
+
+.ingenium-main-page-section-choose-list {
+  list-style-type: none;
+  margin: 0 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  
+}
+
+
+.ingenium-main-page-section-choose-item {
+  display: flex;
+  align-items: flex-start;
+  width: calc((100% / 3) - (24px * 2) / 3);
+  
+}
+
+.ingenium-main-page-section-choose-box-icon {
+   
+  margin: 0 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #eaba1e;
+  border-radius: 4px;
+}
+
+.ingenium-main-page-section-choose-icon {
+  fill: #494a55;
+  width: 38px;
+  height: 38px;
+}
+
+.ingenium-main-page-section-choose-content {
+  margin: 0 auto;
+}
+
+.ingenium-main-page-section-choose-item-title {
+  margin: 0 auto;
+}
+
+/* -------------------------------*/
+
+.ingenium-main-page-section-konsultacii {
+  padding: 120px 0;
+}
+
+.ingenium-main-page-section-konsultacii-container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.ingenium-main-page-section-konsultacii-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 36px;
+}
+
+.ingenium-main-page-section-konsultacii-description {
+  margin-bottom: 75px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.ingenium-main-page-section-konsultacii-list {
+  display: flex;
+  gap: 24px;
+}
+
+.ingenium-main-page-section-konsultacii-list > li {
+  list-style-type: none;
+}
+
+.ingenium-main-page-section-konsultacii-item {
+  width: calc((100% - 2 * 16px) / 3);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.ingenium-main-page-section-konsultacii-item-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ingenium-main-page-section-konsultacii-item-descr-title-block {
+  height: 75px;
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.ingenium-main-page-section-konsultacii-item-descr-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.ingenium-main-page-section-konsultacii-item-descr {
+  padding: 0 0 32px;
+}
+
+.section-konsultacii-button {
+  background-color: #eaba1e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 48px auto 0;
+  padding: 0 15px;
+}
+
+.section-konsultacii-button:hover {
+  background-color: #98770a;
+}
+.section-konsultacii-button:focus {
+  background-color: #98770a;
+}
